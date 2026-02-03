@@ -16,9 +16,6 @@ This module focuses on solidifying the core foundations of JavaScript and master
 > * **`var`** → Function-scoped, can be re-declared & re-assigned
 > * **`let`** → Block-scoped, cannot be re-declared, can be re-assigned
 > * **`const`** → Block-scoped, cannot be re-declared or re-assigned (but object properties can change)
-
+>
 > ✅ **Best practice:** Use `const` by default, `let` if value changes, avoid `var`.
 
-
-
-> **Note:** Detailed learning logs and project updates for this module will be shared at the end of the day.
