@@ -8,4 +8,17 @@ This module focuses on solidifying the core foundations of JavaScript and master
 * **Clean Code:** Implementing industry-standard naming conventions and structure.
 
 ---
+## Questions Related to Module 01:
+
+> **Q: Difference Betwwen Var, Let , Const?**
+>
+> **A:** **Short Answer:**
+> * **`var`** → Function-scoped, can be re-declared & re-assigned
+> * **`let`** → Block-scoped, cannot be re-declared, can be re-assigned
+> * **`const`** → Block-scoped, cannot be re-declared or re-assigned (but object properties can change)
+
+> ✅ **Best practice:** Use `const` by default, `let` if value changes, avoid `var`.
+
+
+
 > **Note:** Detailed learning logs and project updates for this module will be shared at the end of the day.
