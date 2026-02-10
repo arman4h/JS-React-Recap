@@ -1,4 +1,4 @@
-# 📍 Mission Restart: JS & React Core Revision
+# 📍 Mission Restart: JS & React Core Revision 
 
 A high-intensity, structured program focused on solidifying technical foundations for international remote engineering roles.
 
@@ -12,17 +12,15 @@ A high-intensity, structured program focused on solidifying technical foundation
 ## 📅 Routine: Mission 1 (Foundations)
 Mission 1 spans from **Feb 1 to Feb 13**, focusing on JavaScript mastery and API communication.
 
-| Phase | Date | Topic |
-| :--- | :--- | :--- |
-| **Module 1** | Feb 1 - 3 | JS Recap & ES6 Fundamentals |
-| **Special Session** | Feb 1 | Basic Concepts of JS |
-| **Module 2** | Feb 3 - 5 | Advanced JavaScript |
-| **Module 3** | Feb 5 - 7 | Understanding Core Concepts |
-| **Conceptual 1** | Feb 6 | In-depth Concept Discussion |
-| **Module 4** | Feb 7 - 9 | API, JSON, Data Load & Dynamic Websites |
-| **Module 5** | Feb 9 - 11 | API Recap & Practice |
-| **Assignment 01**| Feb 11 - 13 | **Milestone: First Project Publication** |
-| **Bonus** | Feb 13 | Module 6.5 - Bonus Content |
+| Phase |  Topic |
+| :--- |  :--- |
+| **Module 1** |  JS Recap & ES6 Fundamentals |
+| **Module 2** |  Advanced JavaScript |
+| **Module 3** |  Understanding Core Concepts |
+| **Module 4** |  API, JSON, Data Load & Dynamic Websites |
+| **Module 5** |  API Recap & Practice |
+| **Project 01**| **Milestone: First Project Publication** |
+| **Bonus** | Module 6.5 - Bonus Content |
 
 ---
 
