@@ -23,4 +23,4 @@ const add2 = (num1 , num2) => {
 
 // or 
 
-const addd = (num1, num2) => num1 + num2 ;
+const addd = (num1, num2) => num1 + num2 ; 
