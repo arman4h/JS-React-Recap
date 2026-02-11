@@ -1,116 +1,81 @@
-# ENGLISH <img width="25px" src="./assets/logo.png" /> JANALA
+# English Janala - Learn English Easily
 
----
+A modern, interactive web application designed to help users learn English vocabulary through structured lessons and levels.
 
-## ⚡ API Endpoints
+## 🎯 Project Overview
 
-1. Get ⚡ All Levels
+**English Janala** (englishjanala.com) is an ED-Tech application that provides an engaging platform for learning English vocabulary. The application features interactive lessons organized by difficulty levels, pronunciation guidance, and detailed word definitions with examples.
 
-```bash
-https://openapi.programming-hero.com/api/levels/all
+## ✨ Features
+
+- **Level-Based Learning**: Browse lessons organized across multiple difficulty levels
+- **Interactive Vocabulary Cards**: Display word, meaning/pronunciation, examples, and synonyms
+- **Speech Synthesis**: Click to hear correct pronunciation of English words
+- **Modal Details**: View comprehensive word information including:
+  - Word pronunciation
+  - Meaning in Bengali
+  - Example sentences
+  - Synonyms
+- **Responsive Design**: Fully responsive UI built with Tailwind CSS and DaisyUI
+- **Loading States**: User-friendly loading and empty states
+- **FAQ Section**: Common questions about the platform
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML5, CSS3, Tailwind CSS, DaisyUI
+- **JavaScript**: Vanilla JavaScript (ES6+)
+- **Fonts**: Poppins, Hind Siliguri (Bengali support)
+- **APIs**: Programming Hero's English Learning API
+
+## 📁 Project Structure
+
+```
+english-janala/
+├── index.html           # Main HTML file
+├── script.js            # Core JavaScript logic
+├── style.css            # Custom CSS styles
+├── tailwind.config.js   # Tailwind configuration
+└── assets/              # Images and icons
 ```
 
-1. Get ⚡ Words by Levels <br/>
-   https:// openapi.programming-hero.com/api/level/{id}
+## 🚀 Getting Started
 
-```bash
-https://openapi.programming-hero.com/api/level/5
-```
+1. Open `index.html` in your web browser
+2. Click on a lesson level to view vocabulary
+3. Click the info button to see detailed word information
+4. Click the speaker icon to hear pronunciation
 
-1. Get ⚡ Words Detail <br/>
-   https:// openapi.programming-hero.com/api/word/{id}
+## 📝 Core Functions
 
-```bash
-https://openapi.programming-hero.com/api/word/5
-```
+- **`loadlessons()`** - Fetches all lesson levels from API
+- **`loadwords()`** - Loads all vocabulary words
+- **`levelLessons(id)`** - Fetches lessons for a specific level
+- **`wordSpeak(word)`** - Uses Web Speech API for pronunciation
+- **`detailModal(id)`** - Displays detailed word information in a modal
+- **`displayModal(wordDetails)`** - Renders the modal with word details
+- **`displaylessons(lessons)`** - Renders lesson cards
+- **`displaylevels(datas)`** - Renders level buttons
 
-1. Get ⚡ All Words <br/>
+## 🌐 API Integration
 
-```bash
-https://openapi.programming-hero.com/api/words/all
-```
+The application fetches data from Programming Hero's API:
+- **All Levels**: `https://openapi.programming-hero.com/api/levels/all`
+- **All Words**: `https://openapi.programming-hero.com/api/words/all`
+- **Level Details**: `https://openapi.programming-hero.com/api/level/{id}`
+- **Word Details**: `https://openapi.programming-hero.com/api/word/{id}`
 
-# Work To do
+## 💡 Key Highlights
 
-### 1. Show Levels on The UI
+- Bengali language support for better accessibility
+- Clean, intuitive user interface
+- Mobile-responsive design
+- Zero configuration required
+- Educational focus with interactive learning
 
-- [ ] Show a center-aligned heading as Figma
+## 📋 Status
 
----
-
-- [ ] Create dynamically generated buttons from **API-01** for each lesson
-- [ ] Lesson Buttons will be displayed on page load
-
----
-
-### 2. Show Word Cards Based on Level
-
-- [ ] Show a default text that will be displayed in the Vocabulary section initially
-- [ ] on Clicking a Specific Lesson Button Load All the words from **API-02**
-- [ ] Display all words for a selected lesson in a card format, showing:
-
-  - [ ] Word
-  - [ ] Word meaning & pronunciation
-  - [ ] Two buttons with relevant icons as per Figma
-
-- [ ] Show **\*No Word Found** message if no words exist for a lesson
+Currently in demo mode - no account creation required. Full version with certificates coming soon!
 
 ---
 
-- [ ] Create functionality to highlight the active lesson button
-
----
-
-### 3. Use Different Color on The Active Level Button
-
-- [ ] After Successfully Loading words of a level , diffirentiate the button so user can understand which button is active
-
-### 4. Vocabulary Details
-
-- [ ] Create functionality to open a modal when clicking the details icon
-- [ ] Data will be load from **API-03**
-- [ ] modal will displays:
-  - [ ] Word with pronunciation
-  - [ ] Example sentence
-  - [ ] Synonyms
-  - [ ] A "Complete Learning" button to close the modal
-
-### 5. Handling Invalid Data
-
-- [ ] avoid displaying falsy values like `undefined` or `null`
-- [ ] display relevant words if no data is found
-
-### 6. Loading Spinner
-
-- [ ] Create a loading spinner that will be display when vocabulary is loading from API
-
-### 7. Implement Search Functionality
-
-- [ ] Take a input Box.
-- [ ] on Changing value It will Search word and show in the UI.
-- [ ] If anyone Do search reset active button
-
-### 8. Save Word Feature
-
-- [ ] in the UI of Card add a button `Heart icon`
-- [ ] on Clicking it. Store the Word in the Saved Box
-- [ ] Show Saved words in a Different Section.
-
-### 9. Speak your Vocabularies
-
-- [ ] Create functionality for voice pronunciation of vocabulary words
-- [ ] Use below function and implement on clicking sound icon
-
-```js
-function pronounceWord(word) {
-  const utterance = new SpeechSynthesisUtterance(word);
-  utterance.lang = "en-EN"; // English
-  window.speechSynthesis.speak(utterance);
-}
-```
-
-For More >> you can explore this implementation 👉 [https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ](https://codepen.io/Ferdous-Zihad/pen/PwoJMmJ)
-
----
-Bonus : How to create Private Repository for next assignments
-## Test Repo - :  https://classroom.github.com/a/Fgjib-lr
+*"ইংরেজি শিখুন সহজে" - Learn English Easily*
