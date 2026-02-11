@@ -108,7 +108,25 @@
           <span class="text-sky-600">Let's'</span> Learn Vocabolaries
         </h1>
 
-        <div id="lessons" class="flex items-center gap-2 justify-center flex-wrap mx-auto w-full"></div>
+        <div id="lessons" class="pb-10 max-w-6xl flex items-center gap-2 justify-center flex-wrap mx-auto w-full"></div>
+        <section id="loadingCard" class="max-w-7xl mx-auto justify-center items-center bg-zinc-50 p-10 rounded-lg">
+          <div class="hind-siliguri-regular flex flex-col gap-3 justify-center items-center">
+            <h1 class="text-sm text-gray-400">আপনি এখনো কোন lesson select করেন নি ।</h1>
+            <h1 class="text-3xl font-bold">একটি Lesson Select করুন</h1>
+          </div>
+        </section>
+        <section id="lessonCard" class="hidden grid-cols-1 md:grid-cols-3 gap-3 max-w-7xl mx-auto justify-center items-center bg-zinc-50 p-5 rounded-lg">
+        </section>
+
+        <!-- Card if There is not Lessons -->
+         <section id="emptyCard" class="hidden max-w-7xl mx-auto justify-center items-center bg-zinc-50 p-10 rounded-lg">
+          <div class="hind-siliguri-regular flex flex-col gap-3 justify-center items-center">
+            <img class="w-20" src="assets/alert-error.png" alt="Error-Alert">
+            <h1 class="text-sm text-gray-400">এই Lesson এ এখনো কোন Vocabulary যুক্ত করা হয়নি।</h1>
+            <h1 class="text-3xl font-bold">অন্য কোন Lesson Select করুন</h1>
+          </div>
+        </section>
+
        </section>
 
       <!-- FAQ Section -->
